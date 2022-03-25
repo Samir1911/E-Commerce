@@ -1,0 +1,66 @@
+/*Common for men ,women,kids, home*/
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 300px;
+  height: fit-content;
+  margin: 10px 0;
+}
+.shoe {
+  padding: 0 10px;
+}
+
+.product {
+  width: 300px;
+  height: 300px;
+}
+.container div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+main {
+  margin-top: 30px;
+}
+@media (max-width: 670px) {
+  .container,
+  .product {
+    width: 150px;
+  }
+  .container {
+    height: 200px;
+  }
+  .product {
+    height: 150px;
+  }
+  .container p {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .container div img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/*--------------Home Page------------*/
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 10px;
+  flex-wrap: wrap;
+  border: 0;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+legend {
+  margin: 0 auto;
+  font-size: 25px;
+  color: orange;
+}
